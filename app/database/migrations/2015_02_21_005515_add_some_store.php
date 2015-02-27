@@ -12,21 +12,25 @@ class AddSomeStore extends Migration {
 	 */
 	public function up()
 	{
-		/*Stores::create(array(
 		
+		Stores::create(array(
+		/*
 			'name' => 'NY store',
 			'address'=> 'time square',
 			'city'=> 'New York',
 			'zip'=> '10032',
+			'state'=> 'otro',
 			'country'=> 'usa',
-			'latitude'=> '40.6700',
-			'longitude' => '73.9400',
+			'lat'=> '40.6700',
+			'lng' => '73.9400',
 			'support_phone'=> '9459856',
 			'support_email'=> 'jonathan@gmail.com',
-			'user_id' => '1',
+			'user_id' => 1,
+*/
+
 
 		));
-*/
+		
 	}
 
 	/**

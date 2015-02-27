@@ -21,13 +21,15 @@ class CreateStoreTable extends Migration {
 			$table->string('zip');
 			$table->string('state');
 			$table->string('country');
-			$table->string('latitude');
-			$table->string('longitude');
+			$table->string('lat');
+			$table->string('lng');
 			$table->string('support_phone');
 			$table->string('support_email');
 			$table->integer('user_id');
 			$table->timestamps();
 		});
+
+	
 
 	}
 
