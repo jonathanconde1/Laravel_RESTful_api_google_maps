@@ -24,11 +24,7 @@ class StoreController extends \BaseController {
 			->get();
 		}
 		
-		return Response::json(array(
-			'error' => false,
-			'stores' => $stores->toArray()),
-			200
-		)->setCallback(Input::get('callback'));
+		return Response::json($stores->toArray())->setCallback(Input::get('callback'));
 
 		
 	}

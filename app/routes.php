@@ -18,7 +18,7 @@ Route::get('/', function()
 
 //Route::resource('store', 'StoreController');
 
-Route::group(array('prefix' => 'locator/api/service/v1', 'before' => 'Apiauth'), function() 
+Route::group(array('prefix' => 'locator/api/service/v1'), function() 
 { 
 	Route::resource('store', 'StoreController'); 
 }); 

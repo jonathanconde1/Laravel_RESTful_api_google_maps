@@ -46,7 +46,7 @@
 	*/
 
 		$(function() {
-          $('#map-container').storeLocator({'dataType': 'json', 'dataLocation': 'locations.json'});
+          $('#map-container').storeLocator({'dataType': 'json', 'dataLocation': 'http://localhost:8000/locator/api/service/v1/store'});
         });
 
       </script>

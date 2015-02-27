@@ -16,19 +16,20 @@ class CreateStoreTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('name');
-			$table->string('address');
-			$table->string('city');
-			$table->string('zip');
-			$table->string('state');
-			$table->string('country');
 			$table->string('lat');
 			$table->string('lng');
-			$table->string('support_phone');
-			$table->string('support_email');
-			$table->integer('user_id');
+			$table->string('address');
+			$table->string('address2');
+			$table->string('city');
+			$table->string('state');
+			$table->string('postal');
+			$table->string('phone');
+			$table->string('web');
+			$table->integer('hours1');
+			$table->integer('hours2');
+			$table->integer('hours3');
 			$table->timestamps();
 		});
-
 	
 
 	}
@@ -40,10 +41,7 @@ class CreateStoreTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('stores', function(Blueprint $table)
-		{
-			//
-		});
+		Schema::drop('stores');
 	}
 
 }

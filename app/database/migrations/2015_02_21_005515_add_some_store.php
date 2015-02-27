@@ -27,6 +27,20 @@ class AddSomeStore extends Migration {
 			'support_email'=> 'jonathan@gmail.com',
 			'user_id' => 1,
 */
+//'id'=>'1',
+'name'=>'Jonathan Conde',
+'lat'=>'44.947464',
+'lng'=>'-93.320826',
+'address'=>'tienda',
+'address2'=>'',
+'city'=>'Minneapolis',
+'state'=>'MN',
+'postal'=>'55416',
+'phone'=>'612-922-6662',
+'web'=>'http=>\/\/www.chipotle.com',
+'hours1'=>'Mon-Sun 11am-10pm',
+'hours2'=>'',
+'hours3'=>''
 
 
 		));
